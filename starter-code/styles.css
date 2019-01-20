@@ -1,3 +1,7 @@
+div{
+  border: 1px dashed #6BD9ED
+}
+
 nav{
   display: flex;
   background-color: #C12127;
@@ -49,4 +53,27 @@ header .search-head{
 
 header .form-head{
   vertical-align: top;
+}
+
+.center-content{
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.build-things{
+  padding-left: 25%;
+  width: 95%;
+  height: 95%;
+  background-image: url(./images/hero-cityscape.svg);
+}
+
+.collaboration-group{
+  padding-left: 25%;
+}
+
+#img-collaboration{
+  width: 50%;
+  height: 50%;
+  border: 1px;
+  border-color: white;
 }
