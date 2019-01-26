@@ -35,6 +35,8 @@
   h4{
     font-size: 1.5em;
     letter-spacing: 0.4px;
+    /*Box Model*/
+    margin-bottom: 15px;
   }
   
   h5{
@@ -43,6 +45,8 @@
 
   .nav-bar{
     background: rgb(25, 33, 41);
+    /*Box model*/
+    padding-top: 14px;
   }
 
   .nav-bar-item{
@@ -51,12 +55,26 @@
     font-size: 2em;
   }
 
+  .nav-bar-ul{
+    /*Box model*/
+    width: 1200px;
+    margin: auto;
+  }
+
+  .nav-bar-li{
+    /*Box model*/
+    list-style-type: none;
+    text-align: center;
+  }
+
   .header{
     background-image:url('https://s3-eu-west-1.amazonaws.com/ih-materials/uploads/ironhack-skydive-background.jpg');
     background-position: 0,0;
     background-size: cover;
     background-repeat: no-repeat;
     height: 650px;
+    /*Box model*/
+    padding-top: 50px;
   }
 
   .quote{
@@ -72,6 +90,8 @@
     font-size: 2em;
     font-weight: 100;
     text-align: center;
+    /*Box model*/
+    margin-top: 20px;
   }
 
   .link-btn{
@@ -87,6 +107,19 @@
   .service-box{
     font-size: 1.7em;
     text-align: center;
+    /*Box Model*/
+    border-width: 2px;
+    border-style: solid;
+    border-color: #eeeeee;
+    border-radius: 20px;
+    box-sizing: border-box;
+    box-shadow: 2px 2px 10px 0 #eee;
+    margin-top: 50px;
+    margin-right: 5%;
+    margin-bottom: 0;
+    margin-left: 5%;
+    padding: 20px;
+    width: 40%;
   }
 
   .service-box .img{
@@ -96,6 +129,9 @@
   #team .section-text{
     font-size: 1.5em;
     text-align: center;
+    /*Box Model*/
+    width: 60%;
+    margin: 10px auto;
   }
   
   #team .member-name{
@@ -106,14 +142,36 @@
   .footer{
     font-size: 1.9em;
     text-align: center;
+    /*Box Model*/
+    padding: 0 100px 0 100px;
   }
 
   .address{
     font-size: 0.8em;
     font-style: normal;
+    /*Box Model*/
+    margin: 0 0 30px 0;
+  }
+
+  .follow-list{
+    list-style-type: none;
+    /*Box Model*/
+    margin: 0 0 25px 0;
   }
 
   .footer .link{
     color: rgb(67, 163, 230);
     text-decoration: none;
   }
+
+/*Box model*/
+.container{
+  width: 1200px;
+  margin: auto;
+  padding: 75px 0;
+}
+
+#team hr{
+  width: 40%;
+  margin: 20px auto 30px auto;
+}
