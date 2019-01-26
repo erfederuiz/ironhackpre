@@ -47,6 +47,8 @@
     background: rgb(25, 33, 41);
     /*Box model*/
     padding-top: 14px;
+    /*Layout model*/
+    height: 40px;
   }
 
   .nav-bar-item{
@@ -65,6 +67,9 @@
     /*Box model*/
     list-style-type: none;
     text-align: center;
+    /*Layout model*/
+    float: left;
+    width: 33%;
   }
 
   .header{
@@ -75,10 +80,16 @@
     height: 650px;
     /*Box model*/
     padding-top: 50px;
+    /*Layout model*/
+    position: relative; /*If you don’t do that, the quote be positioned in relation to the <body> instead of the header*/
   }
 
   .quote{
     font-size: 2.5em;
+    /*Layout model*/
+    position: absolute;
+    left: 10%;
+    bottom: 15vh;
   }
 
   .dark-background{
@@ -102,6 +113,15 @@
     text-align: center;
     text-decoration: none;
     letter-spacing: 0.5px;
+    /*Layout model*/
+    display: block;
+    width: 150px;
+    margin: 40px auto 0 auto;
+    padding: 14px 20px 14px 20px;
+    border-width: 2px;
+    border-color: black;
+    border-style: solid;
+    
   }
 
   .service-box{
@@ -137,6 +157,9 @@
   #team .member-name{
     font-size: 1.5em;
     font-weight: 700;
+    /*Layout model*/
+    display: block;
+    text-align: center;
   }
 
   .footer{
@@ -174,4 +197,31 @@
 #team hr{
   width: 40%;
   margin: 20px auto 30px auto;
+}
+
+/*Layout model*/
+
+.col { 
+  float: left; 
+}
+
+.col-3 { 
+  width: 30%;
+} /* 30% | 30% | 30% */
+
+.col-2 { 
+  width: 40%;
+  margin: 5% 5% 0 5%;
+} /* 30% | 30% | 30% */
+
+.col-middle {
+  margin: 0 5% 0 5%;
+ } /* 5% | content | 5% */
+
+.clearfix { clear: both; }
+
+.map-frame{
+  height: 375px;
+  width: 60%;
+  float: right;
 }
