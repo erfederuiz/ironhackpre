@@ -238,3 +238,37 @@
   border-bottom-style: solid;
   padding: 5px 10px 5px 10px;
 }
+
+/*Slot Form*/
+.slot-form{
+
+}
+
+.slot-form-container{
+  width: 40%;
+  margin: 18px auto 0 auto;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+label{
+  display: block;
+  margin: 0 0 5px 0;
+  line-height: 15px;
+}
+
+.slot-form-container input{
+  height: 20px;
+  outline: none;
+  padding: 3px;
+  width: 100%;
+}
+
+.slot-form-container button{
+  border-style: solid;
+  border-color: black;
+  color: black;
+  background-color: white;
+  padding: 9px;
+  margin: 15px 0 0 0;
+}
