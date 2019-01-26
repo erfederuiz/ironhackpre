@@ -225,3 +225,16 @@
   width: 60%;
   float: right;
 }
+
+/*Table layout*/
+.schedule-table{
+  font-size: 1.5em;
+  margin: 0 auto 40px auto;  
+}
+
+.cell-schedule{
+  border-bottom: 1px;
+  border-bottom-color: black;
+  border-bottom-style: solid;
+  padding: 5px 10px 5px 10px;
+}
