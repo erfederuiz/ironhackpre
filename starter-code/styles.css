@@ -1,7 +1,93 @@
 div{
-  border: 1px dashed #6BD9ED
+  border: 1px solid transparent;
 }
 
+/*General values*/
+.display-inline{
+  display: inline;
+}
+
+.col-left { 
+  float: left; 
+}
+
+.col-right { 
+  float: right; 
+}
+
+.pos-relative{
+  position: relative;
+}
+
+.col-1{
+  width: 100%;
+}
+
+.col-2{
+  width: 50%;
+}
+
+.col-3{
+  width: 33%;
+}
+
+
+
+.col-4{
+  width: 25%;
+}
+
+.col-5{
+  width: 20%;
+}
+
+.col-8{
+  width: 12.5%
+}
+
+.col-10 { 
+  width: 10%;
+} 
+
+.col-15{
+  width: 15%;
+}
+
+
+
+.clearfix { clear: both; }
+
+
+.link-btn{
+  border-radius: 20px;
+  border-style: solid;
+  border-color:transparent;
+  padding: 10px 20px 10px  20px;
+  box-sizing: border-box;
+}
+
+.button-container{
+  margin-top: 30px;
+}
+
+h1, h2, p, ul{
+  font-family: "Open Sans", OpenSans, sans-serif;
+  font-weight: 200;
+}
+
+ul {
+  list-style-position: inside;
+  padding-left:0;
+}
+
+li{
+  font-size: 1em;
+  padding:0 0 1em 0;  
+}
+
+
+
+/*Navigation bar*/
 nav{
   display: flex;
   background-color: #C12127;
@@ -42,32 +128,25 @@ nav a{
   float: left;
 }
 
-
+/*Header*/
 header{
   background: rgb(32, 89, 122);
+  color: white;
+}
+
+.header-site{
+  background-color: #000000;
+  background-image: url(images/hero-cityscape.svg); 
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  padding-bottom: 80px;
 }
 
 header .search-head{
   padding-top: 16px;
 }
 
-.col { 
-  float: left; 
-}
 
-.col-10 { 
-  width: 10%;
-} 
-
-.col-15{
-  width: 15%;
-}
-
-.col-middle {
-  margin: 0 0 0 0%;
- } /* 5% | content | 5% */
-
-.clearfix { clear: both; }
 
 .npm-logo-container{
   padding-top: 15px;
@@ -77,7 +156,8 @@ header .search-head{
 
 .form-container{
   padding-top: 15px;
-  width: 75%;
+  margin: 0 0 0 0%;
+  width: 82%;
 }
 
 .links-container{
@@ -114,32 +194,87 @@ header .search-head{
   text-decoration: none;
 }
 
-/*
+/*Sections background*/
+#group-collaboration{
+  background-color: rgb(39, 53, 71);
+  padding-top: 60px;
+  padding-bottom: 80px;
+}
+#bear-working{
+  background-image: url("./images/forklift.svg");
+  padding-top: 60px;
+  padding-bottom: 125px;
+  color: white;
+}
 
 
+/*Inner build things layout*/
+
+#build-things-head{
+  color: white;
+  margin-top: 10px;
+}
 
 
+#signup-open-button{
+  color: white;
+  margin-bottom: 100px;
+  text-decoration: none;
+  background-color: rgb(239, 145, 51);
+
+}
+
+/*Collaboration layout*/
+#collaboration-text{
+  margin-left: 50px;
+  color: white;
+}
+
+#signup-groups-button{
+  color: white;
+  margin-bottom: 100px;
+  text-decoration: none;
+  background-color: rgb(203, 56, 55);
+}
+
+#learn-groups{
+  color: white;
+  text-decoration: none;  
+}
+
+/*Bear working layout*/
+
+#install-button{
+  color: white;
+  text-decoration: none;  
+  background-color: rgb(52, 73, 94);
+}
+
+/*Options section layout*/
+h2{
+  text-align: center;
+}
 .center-content{
-  margin-left: 10%;
-  margin-right: 10%;
+  display: block;
+  margin-top: 10px;;
+  margin-left: auto;
+  margin-right: auto  
 }
 
-.build-things{
-  padding-left: 25%;
-  width: 95%;
-  height: 95%;
-  background-image: url(./images/hero-cityscape.svg);
+.center-text{
+  text-align: center;
 }
 
-.collaboration-group{
-  padding-left: 25%;
+.margin-ps{
+  margin-left: 40px;
+  margin-right: 40px;
 }
 
-#img-collaboration{
-  width: 50%;
-  height: 50%;
-  border: 1px;
-  border-color: white;
+.padding-ps{
+  padding-right: 150px;
 }
 
-*/
+#options-section{
+  margin-bottom: 100px;
+}
+
